@@ -1,0 +1,3 @@
+SELECT EMP_NO AS "Employee ID",
+	CONCAT(FIRST_NAME,	' ', LAST_NAME) AS "Full name"
+FROM EMPLOYEES;
