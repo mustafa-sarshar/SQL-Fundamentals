@@ -14,5 +14,6 @@ FROM EMPLOYEES
 WHERE NOT BIRTH_DATE < '1959-12-03'
 AND NOT BIRTH_DATE > '1960-12-03';
 
+
 -- Notes:
 -- Comparison operators: https://www.postgresql.org/docs/12/functions-comparison.html
