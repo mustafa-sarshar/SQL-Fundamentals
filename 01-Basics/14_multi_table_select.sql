@@ -96,9 +96,10 @@ FULL JOIN "cartesianB" AS B
 ON A.ID = B.ID;
 
 -- USING: to simplify the JOIN syntax
+--- It can be used instead of ON keyword when the column name of both tables has the same name.
 SELECT CONCAT(EMP.FIRST_NAME, ' ', EMP.LAST_NAME) AS "Employee", DEPS.DEPT_NAME AS "Department"
 FROM EMPLOYEES AS EMP
-INNER JOIN DEPT_EMP AS DEMP USING(EMP_NO)
-INNER JOIN DEPARTMENTS AS DEPS USING(DEPT_NO)
+INNER JOIN DEPT_EMP AS DEMP USING(EMP_NO)           -- instead of writing: ON EMP.EMP_NO = DEMP.EMP_NO
+INNER JOIN DEPARTMENTS AS DEPS USING(DEPT_NO)       -- instead of writing: ON DEMP.DEPT_NO = DEPS.DEPT_NO
 WHERE DEPS.DEPT_NAME ILIKE 'c%' OR DEPS.DEPT_NAME ILIKE 'h%'
 ORDER BY DEPS.DEPT_NAME DESC
