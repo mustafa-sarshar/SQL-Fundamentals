@@ -21,7 +21,7 @@ ORDER BY o.orderid;
 
 SELECT p.prod_id, i.quan_in_stock
 FROM products as p
-INNER JOIN inventory AS i oN p.prod_id = i.prod_id 
+INNER JOIN inventory AS i ON p.prod_id = i.prod_id 
 
 
 /*
