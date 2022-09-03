@@ -14,4 +14,12 @@ The UNION operator selects only distinct values by default. To allow duplicate v
 
 */
 
+SELECT NULL AS "prod_id", SUM(OL.QUANTITY)
+FROM ORDERLINES AS OL
 
+UNION ALL
+
+SELECT PROD_ID AS "prod_id", SUM(OL.QUANTITY)
+FROM ORDERLINES AS OL
+GROUP BY PROD_ID
+ORDER BY PROD_ID DESC;
