@@ -18,7 +18,6 @@ SELECT
 	AVG(SALARY) OVER() AS "Avg. of Salary"  -- this will be applied against all rows
 FROM SALARIES;
 
-
 SELECT
 	D.DEPT_NAME AS "Department",
 	AVG(S.SALARY) OVER() AS "Avg. of Salary"  -- this will be applied against all rows
