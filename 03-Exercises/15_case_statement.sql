@@ -14,4 +14,4 @@ SELECT prod_id, title, price,
       WHEN  price <= 10 THEN  'cheap'
       WHEN  price BETWEEN 10 and 20  THEN 'average'
     END AS "price class"
-FROM products
+FROM products;
