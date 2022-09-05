@@ -1,1 +1,1001 @@
-player_id,gender,first_name,last_name,age,team,birthplace
+player_id,gender,first_name,last_name,age,team_id,birthplace
+0,male,Nathan,Thomas,23,5,United Kingdom
+1,female,Kimberly,Peters,27,9,French S. Territories
+2,female,Tommy,Buzbee,20,3,Central African Rep
+3,male,Samuel,Randle,26,9,St Vincent/Grenadines
+4,male,Brian,Mccaskill,27,8,Norway
+5,male,Patrick,Rush,23,9,Zaire
+6,female,Christy,Cotelesse,27,9,Saudi Arabia
+7,male,Mark,Wetzel,23,6,Christmas Island
+8,female,Phyllis,Reed,39,6,Niger
+9,female,Ruby,Kinder,22,7,Greenland
+10,male,David,Daley,19,6,Bouvet Island
+11,male,Robert,Hendrickson,40,5,Zambia
+12,male,Mathew,Davis,33,5,Palau
+13,female,Pamela,Whitty,25,7,Canada
+14,female,Nancy,Nichols,22,5,Niger
+15,male,Luis,Ruby,29,3,Canada
+16,male,Jack,Whittingham,22,9,Chad
+17,female,Helena,Kirk,25,4,East Timor
+18,female,Eugena,Bush,32,2,Trinidad And Tobago
+19,male,Juan,Hardin,22,4,Honduras
+20,male,Javier,Hearns,23,5,Angola
+21,male,Houston,Kolb,32,8,Bolivia
+22,female,Joy,Ferguson,21,0,Uzbekistan
+23,female,Tiffany,Cash,19,2,Finland
+24,male,George,Perez,24,5,Lesotho
+25,male,Robert,Robinson,39,8,Kenya
+26,male,Keith,Satterfield,30,4,Marshall Islands
+27,male,Norman,Flick,24,0,Bermuda
+28,female,Helen,Young,33,9,Eritrea
+29,male,William,Grant,31,6,Monaco
+30,female,Danielle,Raines,37,0,Grenada
+31,male,Johnnie,Martinez,23,10,San Marino
+32,female,Jennie,Yerian,25,0,Azerbaijan
+33,female,Hermelinda,Keen,27,6,Cape Verde
+34,male,Roger,Poling,34,10,Kiribati
+35,female,Ruth,Couture,35,3,Uruguay
+36,male,Thomas,Roberts,33,7,Belgium
+37,female,Helen,Freudenburg,24,7,Portugal
+38,male,Kent,Howard,21,2,Iran
+39,female,Theresa,Todd,28,10,Finland
+40,female,Lindsey,Doering,38,2,Jordan
+41,male,Kyle,Frazier,38,4,Guinea-bissau
+42,female,Helen,Collins,23,6,Burkina Faso
+43,male,Jeffrey,Kuznicki,32,4,Jordan
+44,female,Gloria,Pigeon,37,4,Equatorial Guinea
+45,male,Timothy,Gulledge,38,3,Nicaragua
+46,male,Douglas,Tyler,19,3,Italy
+47,male,Christopher,Peacock,40,5,Fiji
+48,female,Diana,Banks,26,10,Syrian Arab Republic
+49,male,Benjamin,Dorsey,28,3,Philippines
+50,female,Margaret,Littlejohn,30,8,Cameroon
+51,female,Allison,Crawford,32,0,Afghanistan
+52,male,Lincoln,Biggs,29,10,Anguilla
+53,male,Henry,Darby,36,5,Bolivia
+54,male,Michael,Slater,23,7,Slovenia
+55,female,Tiffany,Talton,37,8,Comoros
+56,male,Jasper,Daley,23,2,Tonga
+57,female,Jessica,Hayashi,40,0,Luxembourg
+58,male,Aaron,Lane,33,0,Croatia
+59,female,Joann,Vanhoose,23,2,Papua New Guinea
+60,female,Johanna,Flakes,40,6,United Arab Emirates
+61,female,Veronica,Rau,36,6,Antarctica
+62,male,Rodney,Garza,24,4,Solomon Islands
+63,male,Francisco,Campbell,24,1,Slovakia
+64,male,Michael,Lizama,18,10,Papua New Guinea
+65,male,John,Dubois,32,5,Antigua And Barbuda
+66,male,Nathan,Jenkins,20,8,Libya
+67,female,Cherie,Gaston,22,4,Panama
+68,female,Sandra,Simmons,23,7,Bouvet Island
+69,female,Mamie,Steil,31,2,Somalia
+70,male,Matthew,Brice,34,3,Kiribati
+71,male,Glen,Connor,40,9,Israel
+72,female,Diann,Stafford,33,3,Chad
+73,male,Solomon,Alvarado,22,1,Zimbabwe
+74,male,Lawrence,Martin,23,4,Christmas Island
+75,female,Brenda,Filley,18,6,Bulgaria
+76,male,Timothy,Kaplan,38,6,Latvia
+77,female,Theresa,Griffin,28,9,Spain
+78,male,Carlos,Hunter,34,2,East Timor
+79,male,Jerry,Boldenow,38,3,Brunei Darussalam
+80,male,Dennis,Everitt,35,9,Cook Islands
+81,female,Krista,Nelson,40,6,Belgium
+82,female,Patricia,Belanger,19,2,Samoa
+83,female,Francisca,Leberte,23,3,Malta
+84,female,Hilda,Burrough,22,5,Honduras
+85,male,Richard,Velasquez,21,9,Ukraine
+86,male,Homer,Jackson,26,9,Syrian Arab Republic
+87,male,Donald,Stone,39,5,French Guiana
+88,female,Frances,Moneyhun,35,4,New Zealand
+89,male,William,Cunningham,20,8,Ukraine
+90,female,Betty,Chronis,35,7,Cameroon
+91,female,Sarah,Murphy,37,0,Czech Republic
+92,female,Julie,Baez,38,2,Georgia
+93,female,Maria,Freeman,19,7,Netherlands Antilles
+94,male,Robert,Greene,21,1,Chad
+95,male,Melvin,Rodriguez,29,0,Switzerland
+96,female,Gloria,Pitts,35,10,Viet Nam
+97,female,Myrna,Cook,37,2,Central African Rep
+98,female,Beulah,Macias,23,0,Central African Rep
+99,male,Jacob,Sideris,31,5,United States
+100,male,Olin,Riddley,37,0,Canada
+101,male,Micheal,Christian,20,4,Bahrain
+102,male,Francis,Koster,34,2,Benin
+103,female,Viola,Griffin,24,6,Ukraine
+104,male,Johnny,Harwell,33,2,Mauritius
+105,female,Ninfa,Pollard,21,6,Norfolk Island
+106,female,Janet,Wright,21,5,Mauritius
+107,female,Sheri,Eastburn,39,3,Lebanon
+108,male,Abel,Pulliam,29,5,Ukraine
+109,female,Patricia,Washington,30,9,Martinique
+110,male,Ralph,Reed,40,5,Papua New Guinea
+111,male,James,Orchard,23,0,Kenya
+112,male,Joseph,Wilson,18,10,Bulgaria
+113,male,James,Podbielski,37,1,Guatemala
+114,male,Adam,Kuss,33,9,Macedonia
+115,male,Alfred,Lozoya,20,3,Gibraltar
+116,female,Cynthia,Harder,37,8,Guinea
+117,male,Michael,Martin,33,3,Indonesia
+118,male,Cecil,Armstrong,36,9,Paraguay
+119,female,Eleanor,Neilsen,36,10,Taiwan
+120,female,Lisa,Davis,22,6,Bahrain
+121,male,Chester,Cain,23,9,Kenya
+122,male,Shawn,Mariano,18,1,Virgin Islands (U.S.)
+123,female,Rebecca,Gamble,29,4,Chile
+124,male,Lee,Williams,25,3,Greenland
+125,female,Joan,Barrera,26,9,Russian Federation
+126,female,Pearl,Sanchez,22,3,Lebanon
+127,male,Johnnie,Lancaster,26,0,Albania
+128,male,Robert,Yardley,26,0,Lithuania
+129,female,Vicki,Brandly,30,10,Cape Verde
+130,female,Tana,Johnson,28,4,Uganda
+131,male,Charles,Holcomb,23,9,Fiji
+132,male,Mark,Soule,37,8,Guatemala
+133,male,Valentine,Schley,30,3,Poland
+134,male,Eric,Gosman,36,5,Malta
+135,female,Debra,Price,25,5,Portugal
+136,male,Jamie,Malamud,40,10,Mongolia
+137,female,Mary,Hersha,29,9,Samoa
+138,male,Lloyd,Rice,24,7,Kuwait
+139,female,Jan,Jackson,39,9,Lithuania
+140,male,Larry,Alvarez,40,0,St. Helena
+141,male,Shelby,Hawes,31,5,Nicaragua
+142,male,Gregory,Moser,34,5,Syrian Arab Republic
+143,female,Juanita,Knowlton,38,8,Zambia
+144,male,Corey,Smith,30,6,Guatemala
+145,female,Anne,Kezar,39,10,Guadeloupe
+146,male,Richard,Lord,18,1,Somalia
+147,male,Edward,Frankel,18,6,French Guiana
+148,male,Calvin,Hammons,37,7,Namibia
+149,male,Michael,Ormsby,36,1,Lesotho
+150,female,Elaine,Brown,34,3,France
+151,male,Paul,Askew,34,4,Aruba
+152,female,Ann,Vlashi,38,6,Virgin Islands (British)
+153,male,Roger,Johnson,34,8,Sudan
+154,female,Laura,Uhrin,24,6,Monaco
+155,male,Clyde,Ramos,26,3,Micronesia
+156,female,Verna,Barnes,28,0,Slovenia
+157,male,Clayton,Bowlds,31,8,Gabon
+158,male,Joshua,Shepard,26,2,Malta
+159,female,Natasha,Feldman,22,7,Uganda
+160,male,Thomas,Gonsales,18,8,Pitcairn
+161,male,Jesus,Joseph,21,2,Congo
+162,female,Katherine,Vega,27,10,Bahrain
+163,female,Ingrid,Hann,34,4,China
+164,male,Arthur,Loucks,38,0,Seychelles
+165,female,Judith,Reynolds,26,5,Panama
+166,female,Nancy,Prok,20,2,Israel
+167,female,Lori,Perry,23,0,Switzerland
+168,male,John,Andersen,25,3,Niger
+169,female,Gloria,Brown,39,3,Cameroon
+170,male,Cory,Roberts,24,9,Anguilla
+171,female,Frances,Smith,21,8,Saudi Arabia
+172,female,Andrea,Dauenhauer,18,6,Peru
+173,male,Walter,Ramirez,21,2,Benin
+174,male,Roy,Morales,23,7,United Kingdom
+175,female,Crista,Synder,23,2,Italy
+176,male,Walter,Miller,29,2,Madagascar
+177,female,Zoila,Madsen,28,4,Greece
+178,male,Steven,Tate,35,3,Antarctica
+179,female,Krystal,Correa,21,2,Malta
+180,female,Tameka,Lanier,31,3,Chad
+181,female,Sandy,Halstead,33,3,Northern Mariana Islands
+182,male,Willard,Currie,26,10,Italy
+183,male,Anthony,Scott,33,2,Barbados
+184,female,Elizabeth,Taylor,38,0,Montserrat
+185,female,Carmen,Salvo,30,2,Benin
+186,male,Julian,Kennedy,28,4,Congo
+187,male,Paul,Schuyler,35,4,Germany
+188,male,Clifford,Boden,28,6,Northern Mariana Islands
+189,female,Linda,Gonzales,23,6,Panama
+190,female,Felecia,Bandy,29,9,Cayman Islands
+191,female,Catherine,Wiggins,23,10,Sri Lanka
+192,male,Roy,Peterson,27,1,Liechtenstein
+193,male,Robert,Durate,32,8,Trinidad And Tobago
+194,male,Joseph,Brown,26,5,Belarus
+195,male,George,Hipsher,27,7,French Polynesia
+196,female,Susan,Johnson,29,6,Cuba
+197,female,Mary,Yokum,26,1,Trinidad And Tobago
+198,female,Jennifer,Sherratt,39,7,Bangladesh
+199,male,Steven,Swartz,28,9,Tuvalu
+200,female,Mary,Mcfarland,25,3,United Kingdom
+201,male,Deon,Small,31,10,Costa Rica
+202,male,Rodney,Moody,26,8,Laos
+203,male,Willie,Bentley,25,7,Dominican Republic
+204,female,Jaclyn,Aldridge,39,1,Poland
+205,male,Clyde,Leathers,22,6,Trinidad And Tobago
+206,female,Cindy,Stewart,23,5,Slovenia
+207,female,Spring,Larson,18,7,Malaysia
+208,male,Henry,Zombory,37,2,Jamaica
+209,female,Josephine,Cogar,25,2,Saudi Arabia
+210,female,Lisa,Miller,19,9,Uzbekistan
+211,female,Barbara,Delia,32,6,United States
+212,male,Vernon,Hayes,29,6,Angola
+213,female,Jennifer,Pettis,18,4,Sudan
+214,female,Mary,Ramsey,33,5,Bhutan
+215,male,John,Griffin,21,8,Portugal
+216,male,Daniel,Addison,37,7,Guadeloupe
+217,female,Elsie,Black,39,6,Qatar
+218,male,Benjamin,Adams,21,0,Germany
+219,female,Suzanne,Hanson,24,1,Belgium
+220,female,Joan,Adkins,18,8,Iran
+221,female,Barbara,Moore,24,2,Moldova
+222,male,Herb,Mckay,24,6,Sudan
+223,female,Mary,Carmichael,29,2,Colombia
+224,male,Brian,Casey,21,6,Puerto Rico
+225,male,Bennett,Russell,30,0,Tokelau
+226,male,Brett,Gregory,24,8,Bermuda
+227,female,Abbie,Mccain,38,8,Monaco
+228,female,Susan,Fitzgerald,19,4,Uruguay
+229,male,Seth,Timms,34,5,Brazil
+230,male,Richard,Ferrell,25,5,Panama
+231,female,Theresa,Thompson,20,9,United Arab Emirates
+232,male,Samuel,Graham,18,3,Belarus
+233,female,Sharon,Rathje,19,3,Anguilla
+234,male,Joshua,Green,40,8,Mauritius
+235,female,Carla,Gutierrez,23,5,Yemen
+236,male,Robert,Pace,33,7,Kazakhstan
+237,male,John,Bonin,25,8,Aruba
+238,male,David,Favela,27,7,United States
+239,male,Tim,Fiaschetti,26,8,Hungary
+240,female,Regina,Smith,31,3,Norway
+241,female,Thelma,Juba,25,9,Djibouti
+242,female,Betty,Miller,19,0,Botswana
+243,female,Judith,Woodard,22,7,Qatar
+244,male,Gary,Bernabe,19,4,Guadeloupe
+245,male,Miguel,Martinez,30,4,Kiribati
+246,female,Hattie,Gable,18,1,Mali
+247,female,Frances,Wall,19,8,Tajikistan
+248,male,Josue,Spangler,22,8,Macedonia
+249,female,Muoi,Davis,39,7,Saudi Arabia
+250,female,Marcia,Loepp,32,7,Argentina
+251,female,Madelaine,Camacho,35,2,Malawi
+252,female,Faye,Collins,30,4,China
+253,female,Teresa,Brown,32,5,United Arab Emirates
+254,female,Susan,Martin,32,3,Madagascar
+255,male,David,Leavitt,22,0,Haiti
+256,female,Shirley,Pritchett,31,8,Reunion
+257,female,Karen,Delaney,28,1,Oman
+258,male,Clinton,Johnson,26,5,Dominican Republic
+259,male,Josue,Murphy,18,3,Nicaragua
+260,male,Stewart,Mitchem,40,5,Northern Mariana Islands
+261,male,Andrew,Blenman,25,6,St. Helena
+262,male,Mike,Casey,37,1,Virgin Islands (British)
+263,male,Justin,Elliott,39,3,Turkey
+264,male,Joel,Souders,31,6,Ukraine
+265,male,Robert,Hill,39,1,Virgin Islands (British)
+266,female,Marie,Bell,25,6,Latvia
+267,male,Israel,Mccool,36,3,Poland
+268,male,Cornell,Jenkins,23,4,Cayman Islands
+269,male,Harold,Heller,31,5,Austria
+270,female,Joaquina,Byrd,33,9,Brunei Darussalam
+271,female,Sherry,Greeson,21,5,Nauru
+272,male,Eric,Knight,20,1,Nigeria
+273,male,Joe,Sizemore,40,4,Poland
+274,female,Maureen,Burns,31,1,Chad
+275,female,Betty,Little,35,1,Chad
+276,female,Beaulah,Pott,30,10,Iraq
+277,male,Daniel,Pennell,34,9,Jamaica
+278,male,Daniel,Thompson,31,3,Taiwan
+279,female,Sheila,Webb,38,6,Bouvet Island
+280,female,Gina,Partridge,22,1,Niger
+281,female,Nancy,Atkins,34,10,Panama
+282,female,Mildred,Blanchette,21,0,Kenya
+283,male,Michael,Mendoza,33,5,Iceland
+284,male,Julian,Hutchinson,23,7,Egypt
+285,male,Michael,Hopkins,29,0,Bermuda
+286,male,Paul,Roberts,35,0,Cook Islands
+287,male,Frank,Rutland,25,7,Jordan
+288,female,Pamela,Popp,18,3,Bulgaria
+289,male,Rodney,Reno,40,8,Kuwait
+290,female,April,Zambrana,26,7,French Guiana
+291,male,Edward,Okeefe,37,3,Liberia
+292,male,Robert,Meissner,25,8,Bulgaria
+293,male,Joseph,Montijo,19,1,Thailand
+294,female,Carolyn,Cates,39,10,Equatorial Guinea
+295,female,Sherry,Smalley,39,10,Micronesia
+296,male,Joshua,Ivey,28,5,France
+297,female,Krystal,Mcclendon,24,7,Armenia
+298,female,Linda,Stokes,18,6,Malta
+299,male,Clinton,Stanfill,20,9,French Guiana
+300,male,James,Cox,18,9,Turkey
+301,male,Paul,Brackeen,28,1,Cuba
+302,female,Jennifer,Rafferty,21,0,Saint Lucia
+303,male,Jay,Hahn,36,4,New Caledonia
+304,male,Ronald,Montney,33,5,Sao Tome
+305,male,Richard,Washington,27,6,Zambia
+306,female,Ashley,Thornburg,33,2,Equatorial Guinea
+307,female,Abigail,Brandt,38,3,Montserrat
+308,female,Mary,Marshall,33,7,Hong Kong
+309,male,Hugh,Tillman,31,1,Cote D`ivoire
+310,male,John,Thruston,30,1,Solomon Islands
+311,male,Dominic,Waters,20,1,Macedonia
+312,female,Marilyn,Ramirez,20,10,Ireland
+313,male,Orlando,Rollins,22,9,Mauritania
+314,female,Sarah,Rivera,31,6,Falkland Islands (Malvinas)
+315,male,Patrick,Adcock,33,8,Benin
+316,female,Betty,Stidham,38,6,Lebanon
+317,male,John,Elder,34,4,Reunion
+318,female,Anita,Germano,29,8,Northern Mariana Islands
+319,male,Stanley,Lejeune,34,8,Qatar
+320,female,Hope,Ward,22,10,Greenland
+321,male,Ramon,Eddy,32,5,New Zealand
+322,female,Mary,Bennett,19,1,Iceland
+323,male,Joseph,Denyes,21,2,Ireland
+324,female,Carolyn,Gartner,30,4,Dominica
+325,female,Christine,Estrada,33,3,Kenya
+326,female,Kathryne,Davis,21,2,Sweden
+327,female,Norma,Franklin,27,8,Guinea
+328,male,Mark,Robinson,34,2,Liechtenstein
+329,male,Robert,Nelms,27,7,Cayman Islands
+330,male,Ernest,Burmeister,25,5,Fiji
+331,female,Joyce,Ferrell,22,6,Madagascar
+332,male,Gregory,Middleton,37,0,Anguilla
+333,female,Ashley,French,23,2,Korea (South)
+334,male,Robert,Webb,33,4,Pakistan
+335,male,Vernon,Howard,36,7,Dominica
+336,female,Ruth,Bibbins,35,1,Argentina
+337,male,Christopher,Mcgovern,26,5,Liechtenstein
+338,female,Shelly,Joyner,40,3,Germany
+339,female,Bernice,Garland,29,9,Marshall Islands
+340,male,Robert,Fields,22,7,Burkina Faso
+341,male,Tyler,Turner,39,6,Georgia
+342,male,Gregory,Russotti,39,2,Anguilla
+343,female,Ollie,Virula,19,1,Tajikistan
+344,female,Mary,Wales,22,3,Swaziland
+345,female,Sandra,Rynders,30,9,Rwanda
+346,female,Jeanine,Smith,37,0,Suriname
+347,male,James,Leko,38,7,Tonga
+348,male,Rodney,Garton,19,8,Saudi Arabia
+349,female,Tammy,Simms,21,0,Laos
+350,female,Laura,Dimaggio,30,2,Guatemala
+351,female,Darla,Cornelius,25,5,Mexico
+352,female,Alesia,Cottle,28,8,Saudi Arabia
+353,male,Clay,Moore,22,7,Sweden
+354,male,Blake,Doyle,25,1,Dominican Republic
+355,male,Morris,Iversen,33,2,Malaysia
+356,male,Gilbert,Ortiz,33,2,Malaysia
+357,male,Tom,Salido,20,1,Cape Verde
+358,male,Keith,Bundy,24,7,Guinea
+359,female,Miriam,Mendoza,30,1,Samoa
+360,male,Ryan,Affolter,33,8,Turkey
+361,female,Maria,Fulmer,40,5,Faroe Islands
+362,male,Ricardo,Howard,21,10,Bahamas
+363,female,Alice,Badgley,24,9,Belarus
+364,male,Kerry,Haran,27,0,Uruguay
+365,male,Felipe,Phillips,22,2,Russian Federation
+366,female,Luetta,Sherman,21,5,Turkey
+367,male,Michael,Hunter,38,8,Cape Verde
+368,female,Sharon,Bean,35,5,Russian Federation
+369,male,Cory,Jones,40,8,Afghanistan
+370,female,Larue,Affolter,19,0,Lesotho
+371,male,Jimmy,James,26,7,Italy
+372,male,Jorge,Lopez,18,1,Nigeria
+373,male,Gregory,Warren,18,2,New Zealand
+374,male,James,Johnson,23,2,Virgin Islands (British)
+375,female,Amee,Schuckert,34,5,Benin
+376,male,Edmund,Mellon,21,7,Yemen
+377,male,William,Needham,20,2,Somalia
+378,female,Julie,Gatlin,26,9,Egypt
+379,male,Tommie,Gallagher,38,1,Colombia
+380,male,William,Love,31,5,Thailand
+381,female,Bernadine,Davis,28,0,Sudan
+382,male,Jacob,Higgins,26,0,Faroe Islands
+383,female,Doris,Dibari,18,9,Antarctica
+384,female,Karen,Hawkins,35,5,Uzbekistan
+385,female,Nell,Ewald,32,9,Hong Kong
+386,male,Richard,Williamson,30,2,Nepal
+387,female,Mary,Currie,37,0,Gibraltar
+388,female,Silvia,Aderholt,20,8,Guinea-bissau
+389,male,Antonio,Byrd,27,6,New Caledonia
+390,female,Teresa,Crenshaw,34,6,Gambia
+391,male,Paul,Ferguson,25,7,Guatemala
+392,male,Richard,Rummler,33,1,Sao Tome
+393,male,Wayne,Griffin,19,10,Colombia
+394,female,Kristina,Manora,18,9,Zambia
+395,male,Duane,Turner,29,6,Bolivia
+396,female,Kathryn,Spitzer,30,4,Argentina
+397,female,Aileen,Watkins,20,10,Solomon Islands
+398,male,William,Moldrem,23,2,Palau
+399,male,Christopher,Stephenson,33,3,Cayman Islands
+400,male,Paul,Remmele,21,7,Cameroon
+401,female,Kathryn,Hoskins,40,6,Palau
+402,male,Rosario,Ruiz,21,6,Monaco
+403,female,Janessa,Atkinson,23,5,Brazil
+404,female,Linda,White,28,2,Chad
+405,female,Carmen,Hernandez,32,4,Seychelles
+406,male,Mike,Martin,28,6,Ecuador
+407,female,Kathleen,Yee,35,4,Indonesia
+408,male,Richard,Boney,40,0,Zambia
+409,male,Phillip,Pacheco,20,10,Greece
+410,male,Miguel,Dutra,22,5,Congo
+411,male,Jeffrey,Bevers,33,3,Kuwait
+412,female,Connie,Semmes,21,7,Iran
+413,male,Roy,Gerald,23,9,Zimbabwe
+414,male,Robert,Adams,32,0,Mauritius
+415,female,Deidre,Rios,30,5,Yugoslavia
+416,female,Betty,Mcrae,25,9,Czech Republic
+417,female,Carie,Affagato,23,8,Dominican Republic
+418,male,Mario,Sanchez,31,10,Canada
+419,male,Steven,Moss,30,10,Jordan
+420,female,Amy,Martz,28,3,Peru
+421,male,Johnny,Alu,34,0,Russian Federation
+422,female,Vickie,Rich,40,3,Ecuador
+423,male,Joseph,Orosco,40,9,Kenya
+424,male,Carl,Harrison,31,0,Maldives
+425,male,Miguel,Thomas,19,0,Ukraine
+426,male,Howard,Andrus,39,9,Bangladesh
+427,male,Barry,Lawrence,36,0,Guam
+428,female,Nadine,Rivera,37,5,Maldives
+429,female,Elizabeth,Pulido,31,5,Argentina
+430,male,Marcelo,Cleary,39,0,Italy
+431,male,Daniel,Morin,34,9,Norfolk Island
+432,male,Vincent,Mark,38,5,Falkland Islands (Malvinas)
+433,female,Velia,Molina,32,5,Rwanda
+434,female,Mildred,Cunningham,39,2,Moldova
+435,male,James,Hall,36,10,Ireland
+436,female,Brenda,Schmidt,31,8,Niue
+437,male,Richard,Taft,18,4,Norway
+438,female,Anne,Bowers,19,0,Indonesia
+439,male,Frankie,Meza,28,8,St.Pierre
+440,male,Samuel,Riley,35,10,Colombia
+441,male,Thad,Shipman,28,1,Micronesia
+442,female,Cheryl,Marcinkiewicz,34,9,Vanuatu
+443,male,Gene,Powell,24,6,Afghanistan
+444,female,Lashawn,Burrell,29,9,Bhutan
+445,female,Cathy,Nez,20,9,Puerto Rico
+446,male,Lawrence,Warnock,23,6,Guinea
+447,female,Eula,Stokes,33,0,Peru
+448,male,Homer,Stein,20,0,Madagascar
+449,male,James,Colon,27,10,Estonia
+450,male,Shane,Conway,31,3,China
+451,female,Cynthia,Keith,24,6,Ecuador
+452,female,Barbara,Johnson,25,1,Benin
+453,female,Suzette,Jones,27,5,Norway
+454,female,Antonia,Ovellette,26,8,Hong Kong
+455,female,Constance,Guo,30,6,Dominican Republic
+456,female,Beverly,Ramin,22,0,Solomon Islands
+457,male,Andrew,Harvey,21,3,Saint Kitts And Nevis
+458,female,Virginia,Garcia,33,2,Angola
+459,male,Philip,Prioletti,38,0,Guam
+460,male,Louis,Mcconville,28,2,Rwanda
+461,male,Lamont,Darrigo,22,6,Belgium
+462,male,Paul,Pasley,28,4,Finland
+463,male,John,Fraher,30,7,Turkmenistan
+464,male,Rafael,Diaz,28,7,Reunion
+465,male,Billy,Radice,33,5,Angola
+466,male,Dave,Weatherford,36,5,Belgium
+467,male,Kevin,Doan,37,4,Nepal
+468,male,John,Garcia,30,0,Nigeria
+469,female,Brittani,Parfitt,26,2,Marshall Islands
+470,male,Bryon,Barry,26,0,Virgin Islands (British)
+471,female,Amanda,Richardson,36,10,Burkina Faso
+472,female,Lisa,Mikos,26,9,Bhutan
+473,female,Darlene,Groff,32,9,Azerbaijan
+474,male,Raymond,Black,36,3,Uruguay
+475,female,Glenda,Hensley,29,1,Cook Islands
+476,male,Michael,Ingram,29,1,Suriname
+477,female,Carla,Marsh,22,10,Togo
+478,male,Daniel,Parsons,36,6,Micronesia
+479,female,Peggy,Janes,25,6,Suriname
+480,female,Dorothy,Powell,27,2,Mayotte
+481,male,Robert,Smith,20,10,Cyprus
+482,male,Peter,Williams,26,1,Chile
+483,female,Michelle,Kilcrest,37,10,Greece
+484,male,Anthony,Ramirez,19,2,Georgia
+485,female,Deborah,Gandee,19,4,Spain
+486,female,Teresa,Broughton,31,9,Maldives
+487,female,Margaret,Vazquez,31,6,Reunion
+488,female,Joyce,Przedwiecki,32,10,Senegal
+489,male,John,Dulle,35,3,Palau
+490,male,Dewey,Villa,35,1,Cyprus
+491,male,Jeff,Angle,24,9,Vanuatu
+492,male,Dexter,Herrera,29,9,Cape Verde
+493,female,Dorothy,Bilbrey,30,5,Romania
+494,female,Kristina,Gruber,32,6,Anguilla
+495,female,Alice,Smith,36,8,India
+496,male,James,Johnson,23,8,Syrian Arab Republic
+497,male,Alan,Tanner,18,4,Mongolia
+498,male,Jeffrey,Otis,29,9,Niue
+499,female,Lakisha,Maillet,37,4,Cocos Islands
+500,male,Keith,Morris,31,4,Mexico
+501,male,Raymond,Juneau,18,2,Cameroon
+502,male,Augustus,Rousey,18,7,Bangladesh
+503,female,Rose,Caperton,20,7,Turkey
+504,female,Joan,Nail,26,1,Kazakhstan
+505,male,David,Summers,24,6,Guadeloupe
+506,male,Adam,Brazell,30,7,Italy
+507,female,Jacquelyn,Wilkerson,40,10,Palau
+508,male,Kevin,Douglas,28,2,Bouvet Island
+509,male,Rufus,Smith,25,10,Bermuda
+510,female,Jessica,Bokor,19,10,Marshall Islands
+511,female,Susan,Williams,24,2,Fiji
+512,female,Bonnie,Prudencio,39,4,Venezuela
+513,female,Lois,Shoulta,19,5,St.Pierre
+514,male,Albert,Tilghman,40,4,Tokelau
+515,male,Donald,Lunt,37,8,Finland
+516,female,Mariela,Wood,28,3,United States
+517,female,Christal,Granier,33,5,Micronesia
+518,female,Marguerite,Spruill,30,6,Saudi Arabia
+519,female,Ruth,Tyrer,18,3,Yugoslavia
+520,male,Calvin,Pagliaro,21,2,Cayman Islands
+521,female,Melissa,Ramm,29,6,Cape Verde
+522,male,Eric,Irvine,22,7,Kuwait
+523,female,Valentina,Romero,33,7,Maldives
+524,female,Viola,Lynch,39,10,Hungary
+525,female,Marcie,Robinson,33,9,Pitcairn
+526,male,Brian,Coello,22,4,Lesotho
+527,male,Jamie,Hayes,37,5,Egypt
+528,male,Robert,Bowser,34,7,Latvia
+529,female,Tina,Hawley,23,10,Uruguay
+530,male,Scott,Fox,25,4,Comoros
+531,female,Lisa,Mcmahon,37,2,Libya
+532,male,Kerry,Thompson,28,3,Malawi
+533,male,Jack,Fleming,27,2,Guinea
+534,female,Beverly,Brewer,33,6,Lebanon
+535,male,John,Boniello,30,5,Netherlands
+536,male,Rogelio,Lawson,34,0,Bahamas
+537,male,Sean,Johnson,22,1,Brunei Darussalam
+538,female,Martha,Caldwell,19,3,Rwanda
+539,male,Arthur,Smith,31,10,Antigua And Barbuda
+540,male,Oscar,Chang,18,8,Panama
+541,female,Alison,Mcintosh,38,1,Papua New Guinea
+542,male,Ricky,Casillas,19,7,Saudi Arabia
+543,male,Robert,Braund,34,0,Latvia
+544,female,Gussie,Rhoades,29,5,Haiti
+545,male,Mark,Fisher,19,5,Taiwan
+546,male,Richard,Levy,23,0,Cocos Islands
+547,female,Lydia,Masser,32,7,Nigeria
+548,male,James,Shaw,18,7,Maldives
+549,male,Richard,Kagawa,32,4,St Vincent/Grenadines
+550,female,Dorothy,Mayweather,18,9,Singapore
+551,male,Jeff,Simmons,21,0,Thailand
+552,male,Otis,Arnett,26,9,Kazakhstan
+553,female,Lura,King,33,7,Guam
+554,male,Benjamin,Doughtie,37,9,St Vincent/Grenadines
+555,female,Amanda,Whitmore,33,3,French Guiana
+556,female,Diane,Hines,37,5,Pakistan
+557,female,Joy,Mara,24,4,Colombia
+558,male,Jerry,Oberpriller,28,1,French S. Territories
+559,male,Michael,Quinn,28,3,Estonia
+560,female,Sasha,Huff,39,0,Fiji
+561,male,Jeffrey,Mayo,33,6,Congo
+562,female,Mary,Booher,37,1,Jordan
+563,female,Rose,Leleux,29,7,Hong Kong
+564,male,Jaime,Cullen,20,3,Cyprus
+565,female,Beverly,Ledoux,25,7,Iraq
+566,female,Beulah,Emond,21,10,Afghanistan
+567,female,Jenna,Bourg,21,6,Austria
+568,female,Irene,Rossi,33,5,Myanmar
+569,male,Darin,Needham,33,6,Kenya
+570,female,Vanessa,Perez,34,5,Sri Lanka
+571,female,Ruby,Bush,31,2,Lebanon
+572,male,Loyd,Elman,35,9,Gibraltar
+573,male,Willie,Rose,33,0,Virgin Islands (U.S.)
+574,female,Blanca,Bowser,34,0,Estonia
+575,male,Johnnie,Butcher,28,9,Kenya
+576,male,Gilberto,Langdon,23,10,Uzbekistan
+577,female,Lacey,Edmonds,33,2,Antigua And Barbuda
+578,male,Frederick,Haywood,32,7,Hong Kong
+579,male,Brain,Martens,23,9,Aruba
+580,female,Ruth,Shealy,37,8,Morocco
+581,female,Ida,Williams,30,8,Ethiopia
+582,female,Ruth,Ballard,27,9,French Polynesia
+583,female,Magaly,Perkins,34,6,Costa Rica
+584,male,Richard,Pineda,36,3,Malawi
+585,female,Robin,Thompson,22,7,Guam
+586,female,Sonia,Aguilar,39,5,Falkland Islands (Malvinas)
+587,male,William,Farris,39,1,Kazakhstan
+588,female,Susanna,Watts,23,2,Luxembourg
+589,male,Agustin,Warner,19,2,Cocos Islands
+590,female,Debbi,Adams,39,10,Guyana
+591,male,Bryan,Mcgahan,23,10,Nepal
+592,female,Etha,Snead,23,5,Thailand
+593,male,Keith,Frank,19,9,Gambia
+594,male,Robert,Allen,35,7,United States
+595,male,Luis,Jones,19,2,Virgin Islands (British)
+596,female,Jessica,Harrison,30,3,Suriname
+597,female,Yasmin,Staples,40,7,Anguilla
+598,female,Kathy,Wright,35,10,Mexico
+599,male,Frank,Harkin,28,2,United States
+600,female,Yu,Meeks,29,10,Pakistan
+601,male,Mark,Morris,27,8,Grenada
+602,male,David,Xiong,22,6,Ireland
+603,female,Helen,Singleton,35,10,Viet Nam
+604,male,Thomas,Matias,40,8,Antarctica
+605,male,Harold,Youngdahl,27,0,Mozambique
+606,female,Misty,Whalen,22,9,Denmark
+607,female,Gail,Taylor,20,8,Bolivia
+608,male,Robert,Lemasters,30,9,Sierra Leone
+609,male,Anthony,Helton,28,0,Botswana
+610,male,Richard,Stephens,20,0,Cambodia
+611,female,Amanda,Mcdaniel,21,0,Lithuania
+612,female,Josephine,Bligen,25,10,Virgin Islands (British)
+613,female,Doris,Smolen,20,4,Norway
+614,female,Ellen,Bailey,18,8,Central African Rep
+615,female,Barbara,Mcphee,31,4,Turkmenistan
+616,male,Larry,Dossey,27,0,Montserrat
+617,male,William,Rogers,29,7,Sri Lanka
+618,male,Peter,Marshall,19,3,Nicaragua
+619,female,Sylvia,Norris,39,5,Brazil
+620,male,Orlando,Bishop,36,6,Morocco
+621,female,Laquanda,Juenemann,40,4,Madagascar
+622,female,Mary,Lindner,27,6,Latvia
+623,female,Lola,Reber,27,0,Suriname
+624,male,Lucas,Street,31,7,Eritrea
+625,male,James,Kuykendall,39,10,Grenada
+626,female,Kay,Warren,27,0,Mongolia
+627,male,George,Halley,31,2,India
+628,female,Sophia,Elford,23,3,Gabon
+629,female,Staci,Tilley,33,0,St.Pierre
+630,male,Walter,Cabrera,27,1,Mayotte
+631,female,Rosie,Baker,20,4,Uganda
+632,female,Rosemary,Jennings,26,6,Tajikistan
+633,male,Clifford,Spangler,25,7,Albania
+634,female,Irene,Flood,29,4,Italy
+635,female,Sharon,Reynolds,35,6,Bangladesh
+636,male,Grover,Reyna,32,8,Antarctica
+637,female,Gene,Mccauley,22,1,Lebanon
+638,female,Lula,Lopez,27,0,St. Helena
+639,male,Byron,Valsin,28,3,Moldova
+640,female,Joyce,Powell,39,5,Bolivia
+641,male,Calvin,Puffinburger,20,2,Iran
+642,male,Lucius,Pennington,23,5,Ghana
+643,female,Grace,Goris,34,3,Nauru
+644,female,Lillie,White,35,4,Cuba
+645,male,David,Seiersen,18,10,Georgia
+646,female,Jacqueline,Deluca,38,7,Guinea
+647,female,Alena,Yasutake,26,9,Hong Kong
+648,male,Dean,Shope,28,1,Philippines
+649,male,Kevin,Willardson,31,2,Korea (South)
+650,male,Eric,Cornell,26,1,Barbados
+651,male,John,Baldwin,27,8,Somalia
+652,male,Lewis,Marroquin,40,7,Montserrat
+653,female,Terri,Bowman,19,8,Paraguay
+654,male,Dennis,Kivett,31,9,Algeria
+655,female,Jenny,Jackson,26,0,Guam
+656,female,Betty,Goodman,24,10,Nigeria
+657,male,Timothy,Keitsock,35,1,Gambia
+658,female,Sandra,Watson,19,9,Barbados
+659,female,Leona,Villarreal,31,4,United States
+660,female,Donna,Gallup,22,4,Liechtenstein
+661,female,Genevieve,Krenz,39,6,Niger
+662,male,Erwin,Losey,38,7,East Timor
+663,female,Scarlett,Hutchins,28,0,Benin
+664,female,Eileen,Volesky,31,1,Mongolia
+665,male,Kenneth,Turrentine,28,2,Brunei Darussalam
+666,male,Mark,Coleman,19,3,Bosnia And Herzegowina
+667,female,Judy,Reynolds,21,10,Ukraine
+668,male,Michael,Saenz,18,8,Bahrain
+669,male,Troy,Lamb,18,1,Spain
+670,female,Twila,Lopez,19,2,New Caledonia
+671,female,Linda,Doolittle,33,8,Puerto Rico
+672,male,Javier,Oddo,23,4,Suriname
+673,female,Susan,Nighman,25,5,Maldives
+674,female,Gina,Ashby,31,8,Faroe Islands
+675,male,Daniel,Weiss,28,0,Virgin Islands (U.S.)
+676,female,Maude,Royal,20,3,Grenada
+677,female,Cassandra,Bryant,37,9,Macau
+678,male,John,Riendeau,23,0,Uzbekistan
+679,female,Cheryl,Hix,39,3,Malaysia
+680,male,Clifford,Robinson,21,2,Norfolk Island
+681,male,Larry,Nelson,21,2,Poland
+682,female,Linda,Alves,28,10,Turkmenistan
+683,male,Wayne,Rindels,21,10,Croatia
+684,female,Vanessa,Sanchez,25,1,Namibia
+685,female,Jean,Cottrell,35,1,Chile
+686,female,Laurette,Fitzpatrick,37,4,Kyrgyzstan
+687,female,Mildred,Urban,40,0,China
+688,male,Ira,Velasquez,29,0,Laos
+689,male,William,Luedeman,22,4,Nauru
+690,male,Glen,Schmidt,21,6,Australia
+691,female,Dolores,Holloway,19,9,Poland
+692,male,Laurence,Henderson,40,2,Switzerland
+693,male,Patrick,Silva,30,5,Myanmar
+694,female,Sandra,Anderson,23,4,Mongolia
+695,female,Patsy,Smith,22,5,Argentina
+696,male,Robert,Brown,31,0,Jamaica
+697,male,Richard,Leonard,29,4,Malta
+698,female,Elizabeth,Wood,36,8,Albania
+699,female,Karen,Leonard,30,4,Ghana
+700,male,Timothy,Stancill,34,9,Northern Mariana Islands
+701,male,Gerard,Tallent,21,4,Moldova
+702,female,Helen,Mccormick,20,4,Belgium
+703,male,Steven,Rasmussen,28,4,Zaire
+704,male,Gerardo,Fawcett,26,7,Grenada
+705,male,Robert,Irvin,25,0,Nepal
+706,male,Peter,Rodriguez,20,1,Kazakhstan
+707,male,Bryan,Mcgill,19,3,Viet Nam
+708,female,Trista,Perry,29,7,Slovenia
+709,female,Mindy,Klotz,28,2,South Africa
+710,female,Linda,William,19,5,Algeria
+711,male,Clark,Gonzales,22,2,Israel
+712,female,Antoinette,Davin,25,6,Thailand
+713,female,Beulah,Wright,33,2,Uruguay
+714,female,Dominique,Key,29,7,Turkey
+715,female,Barbara,Clymer,24,8,Mayotte
+716,male,John,Garcia,23,8,Russian Federation
+717,male,Ricardo,Geralds,28,5,Virgin Islands (British)
+718,male,Bruce,Hasson,26,0,Saint Kitts And Nevis
+719,male,Otto,Gahan,20,10,Hungary
+720,female,Violet,Mccormick,39,5,Nigeria
+721,female,Sherry,Kellstrom,23,8,Mexico
+722,female,Jessica,Taylor,27,3,Tokelau
+723,female,Fairy,Devore,24,3,Belgium
+724,female,Constance,Rodriguez,22,5,Macau
+725,female,Arlene,Williams,30,10,France
+726,female,Joe,Crespino,32,10,Korea (North)
+727,female,Karen,Wansley,22,6,Gambia
+728,male,George,Park,39,2,Czech Republic
+729,male,John,Johnson,30,0,Mauritius
+730,female,Gloria,Brown,33,2,Suriname
+731,male,William,Pratt,26,7,Swaziland
+732,female,Nancy,Cobb,35,2,Nicaragua
+733,female,Jessica,Utecht,36,9,Saudi Arabia
+734,female,Kathleen,Skinnen,26,7,New Zealand
+735,male,Patrick,Blash,33,3,Paraguay
+736,female,Alisa,Harris,25,0,India
+737,male,Jimmy,Jackson,36,8,Tokelau
+738,female,Mildred,Ramsey,31,8,Pakistan
+739,female,Gloria,Garcia,30,7,Venezuela
+740,male,Marlon,Heasley,28,1,Lesotho
+741,male,Terry,Knoblock,18,1,Antarctica
+742,male,Toby,Derosa,33,8,Ireland
+743,female,Charisse,Mckay,29,3,Thailand
+744,male,George,Taylor,26,6,Eritrea
+745,male,William,Crone,20,1,Andorra
+746,male,Michael,Mackillop,30,0,Gibraltar
+747,female,Chrissy,Goeppner,20,4,Mexico
+748,female,Tracy,Harris,26,3,Guam
+749,female,Kathryn,Martin,28,9,Cape Verde
+750,female,Shelley,Lange,39,3,Belarus
+751,female,Teri,Bernard,35,9,Afghanistan
+752,female,Rosalyn,Albrecht,34,7,Belgium
+753,male,Arthur,Neal,34,0,Brazil
+754,male,Ronald,Stoddard,31,0,Cote D`ivoire
+755,male,Glenn,Pacheco,35,7,Germany
+756,male,Clifford,Hegg,35,0,Jordan
+757,male,Johnnie,Gunter,30,10,Bangladesh
+758,female,Gina,Small,33,0,Libya
+759,female,Julia,Wysocki,18,5,Algeria
+760,male,Charles,Huntley,39,10,Haiti
+761,male,George,Brien,30,8,New Zealand
+762,male,John,Wall,37,0,Palau
+763,male,Nicolas,Chance,36,4,Zimbabwe
+764,female,Eula,Blair,31,9,Djibouti
+765,male,Edward,Hernandez,32,0,Zimbabwe
+766,female,Pamela,Fields,39,7,Kyrgyzstan
+767,female,Janice,Hensler,20,8,Kenya
+768,female,Wanda,Taylor,40,4,Falkland Islands (Malvinas)
+769,male,Andrew,Kelty,39,1,Kiribati
+770,male,Humberto,Tomlinson,38,3,Trinidad And Tobago
+771,male,Gerald,White,23,10,Lebanon
+772,male,Marvin,Mitchell,27,5,Lithuania
+773,female,Jeanne,Curran,18,9,Korea (North)
+774,female,Earlene,Johnston,26,8,Nicaragua
+775,male,Robert,Evans,32,8,Korea (North)
+776,female,Kathleen,Maha,26,9,Denmark
+777,male,Jerry,Hogan,25,4,Falkland Islands (Malvinas)
+778,female,Traci,Hastings,24,3,Tokelau
+779,female,Mary,Owen,36,7,India
+780,female,Wilma,Boyle,32,9,American Samoa
+781,male,George,Vanalstyne,32,0,Martinique
+782,male,Chester,Marsha,34,2,United States
+783,female,Eleanor,Burrows,36,9,Bahamas
+784,female,Inez,Sanford,22,1,Togo
+785,female,Millie,Widdows,39,0,Pakistan
+786,female,Maria,Marquez,19,2,Faroe Islands
+787,female,Vonda,Hamilton,29,4,Canada
+788,male,Ed,Hubbard,40,8,Venezuela
+789,female,Natalie,Woock,21,4,Liechtenstein
+790,male,David,Luttrell,40,4,Australia
+791,female,Evelyn,Naquin,35,3,Ecuador
+792,male,Nathan,Gonzales,37,3,Mauritius
+793,female,Darcy,Ocampo,32,6,Costa Rica
+794,female,Donna,Wilson,30,9,Albania
+795,male,John,Stinson,27,9,St. Helena
+796,male,Jeff,Hogan,32,4,Swaziland
+797,female,Judy,Harris,36,3,Dominican Republic
+798,male,Horace,Hoggatt,21,10,Christmas Island
+799,female,Lan,Finney,27,10,Czech Republic
+800,male,Jeffrey,Wood,25,3,Bahrain
+801,male,Juan,Horton,22,9,Ghana
+802,female,Susan,Rodriquez,35,6,Korea (South)
+803,male,Scott,Walker,30,2,Philippines
+804,female,Bertie,Jordan,33,5,Guatemala
+805,female,Numbers,Shepard,28,6,French S. Territories
+806,male,Victor,Woodhouse,34,10,South Africa
+807,male,Henry,Atkinson,24,8,Zimbabwe
+808,male,Joseph,Wheeler,27,3,Nigeria
+809,female,Ora,Doane,21,5,Germany
+810,male,Arnold,Willey,33,6,United Arab Emirates
+811,male,Alvin,Cook,36,1,Pakistan
+812,male,Mario,Mcgehee,35,4,Belarus
+813,male,James,Morgan,19,6,Kiribati
+814,female,Brenda,Sheppard,34,1,Cocos Islands
+815,female,Catherine,Barette,28,2,Madagascar
+816,female,Ruth,Mills,35,7,Qatar
+817,male,Michael,Creswell,20,10,New Caledonia
+818,female,Amy,Bartus,21,10,Kuwait
+819,female,Adelaide,Bonney,38,10,Liberia
+820,female,Mary,Cross,26,9,Japan
+821,female,Maria,Hall,32,9,Antigua And Barbuda
+822,male,John,Exler,37,5,Mauritania
+823,female,Angela,Turner,40,0,Cambodia
+824,male,David,Turner,25,1,Montserrat
+825,male,Mark,Reeves,20,2,Myanmar
+826,female,Tami,Perkins,40,7,Palau
+827,male,Jarred,Miles,40,4,American Samoa
+828,female,Kathryn,Dejesus,30,4,South Africa
+829,male,James,Sommerville,32,5,Peru
+830,male,Mark,Echols,29,1,Japan
+831,female,Christine,Rayford,30,7,Azerbaijan
+832,male,David,Canterbury,38,5,Poland
+833,male,Matthew,Reed,37,1,Laos
+834,male,Edward,Jones,25,7,Jordan
+835,female,Trina,Grossman,21,10,Lesotho
+836,female,Samantha,Yost,38,10,French Guiana
+837,female,Sheila,Fish,32,0,Mozambique
+838,female,Katherine,Villescas,33,0,Eritrea
+839,male,George,Sweet,26,5,Malawi
+840,female,Helen,Cabading,25,5,Faroe Islands
+841,female,Kathy,Pokora,28,7,Botswana
+842,female,Sherry,Shaw,40,5,Togo
+843,female,Debra,Kirkland,19,6,Zimbabwe
+844,female,Tracy,Kimber,18,0,Malta
+845,male,Don,Manuel,18,3,Antigua And Barbuda
+846,female,Sandy,Dragon,34,10,Chile
+847,male,David,Meredith,21,7,Saint Lucia
+848,male,Cornelius,Kaauamo,24,4,Austria
+849,male,Richard,Tirey,18,7,Paraguay
+850,male,William,Stratton,20,5,Denmark
+851,female,Irene,Shaw,30,4,Christmas Island
+852,female,Heather,Rowan,36,0,Korea (North)
+853,male,Vicente,Rohling,28,2,Fiji
+854,male,Calvin,Isreal,31,5,Jordan
+855,male,Sean,Cooper,30,8,Spain
+856,female,Alice,Kao,34,7,Grenada
+857,male,Dennis,Ellsworth,24,4,Guinea-bissau
+858,female,Sheila,Manning,22,3,Estonia
+859,female,Anna,Steele,38,6,Saint Lucia
+860,female,Debra,Fleming,20,7,Brunei Darussalam
+861,male,Jeffrey,Gosa,22,6,Marshall Islands
+862,female,Heather,Kelly,24,8,Sudan
+863,male,Thomas,Hall,33,7,Mongolia
+864,female,Lavonne,Croteau,19,5,Singapore
+865,male,Donald,Thomas,36,5,Luxembourg
+866,male,Justin,Grubb,28,4,Zaire
+867,male,Floyd,Croft,30,0,Cyprus
+868,male,Felix,Nelson,29,10,Bermuda
+869,male,Paul,Mcguire,25,8,Solomon Islands
+870,female,Helen,Greene,22,7,Taiwan
+871,female,Vera,Holderby,31,3,Nicaragua
+872,male,Glenn,Glover,35,5,Viet Nam
+873,male,Pablo,Gallo,29,6,Guinea
+874,female,Pamela,Herndon,21,8,Jordan
+875,male,James,Schoenfeld,25,0,Kenya
+876,female,Barbara,Borders,20,10,United Arab Emirates
+877,female,Myrtle,Trujillo,37,4,Saudi Arabia
+878,male,Richard,Housley,21,4,Uruguay
+879,male,Robert,Castaneda,31,3,Colombia
+880,female,Blanche,Autrey,35,0,Guinea
+881,female,Mable,Puckett,28,9,Viet Nam
+882,male,Gerald,Ruscio,35,7,Palau
+883,female,Bonnie,Scott,26,2,Tunisia
+884,female,Shirley,Rogers,33,7,Suriname
+885,male,Melvin,Caine,24,0,Sao Tome
+886,male,Scott,Wiley,37,5,Chad
+887,male,Charles,Tafoya,29,0,Haiti
+888,female,Leonore,Upchurch,22,3,Luxembourg
+889,male,Shaun,Berkson,30,3,Albania
+890,male,Everett,Bridges,35,6,American Samoa
+891,male,James,Andersen,29,1,Honduras
+892,female,Beverley,Brooks,31,6,Kazakhstan
+893,female,Tomeka,Calico,35,3,Macau
+894,female,Patricia,Slaughenhoupt,30,4,Australia
+895,male,Victor,Tanzosch,21,8,Niger
+896,female,Marilyn,Mcintyre,24,3,Burkina Faso
+897,male,John,Snyder,40,9,Afghanistan
+898,male,George,Forshey,21,8,Kyrgyzstan
+899,male,James,Pleasant,32,10,Viet Nam
+900,female,Maureen,Hastings,38,4,Cape Verde
+901,male,James,Brickman,28,4,Peru
+902,female,Angelia,Meza,37,7,Macedonia
+903,female,Nicolle,Brock,18,6,Venezuela
+904,female,Ruth,Lewis,34,5,Mayotte
+905,male,Sam,Winters,38,5,Senegal
+906,male,Antonio,Wright,18,5,Indonesia
+907,male,Sherwood,Nichols,27,7,Aruba
+908,female,Elizabeth,Thacker,19,3,Papua New Guinea
+909,female,Sara,Greene,36,1,Armenia
+910,male,Willie,Godfrey,34,9,Senegal
+911,female,Pauline,Kaiser,33,5,Poland
+912,male,William,Ramos,31,5,El Salvador
+913,male,Robert,Allen,28,2,Luxembourg
+914,female,Mary,Bryant,40,10,Dominica
+915,female,Sylvia,Santiago,19,10,Benin
+916,male,Abraham,Tilman,30,9,Netherlands
+917,male,Nelson,Massart,29,10,Congo
+918,male,Gerald,Frye,19,2,Laos
+919,female,Celinda,Dove,24,5,Saint Lucia
+920,male,Ryan,Younts,32,10,Canada
+921,female,Christina,Gonzalez,21,8,Solomon Islands
+922,male,Roberto,Arsenault,28,8,Yemen
+923,male,William,Moorman,36,10,Mali
+924,female,Janae,Lester,31,3,Anguilla
+925,male,Christopher,Loy,33,5,Somalia
+926,male,Robert,Doucette,32,1,Martinique
+927,female,Eva,Gomes,37,9,Kiribati
+928,male,Larry,Smith,27,8,Uruguay
+929,male,Robert,Kitanik,23,10,Korea (North)
+930,male,Eugene,Atkinson,28,5,Turkey
+931,male,Bernard,Flowers,39,4,Kyrgyzstan
+932,female,Virginia,William,34,0,Cook Islands
+933,male,Ernest,Leonard,35,4,Trinidad And Tobago
+934,male,Rogelio,Frank,32,0,Vatican City State
+935,male,Robert,Fraley,28,6,Kiribati
+936,female,Tanya,Riley,38,4,French Polynesia
+937,female,Libby,Brennan,22,2,Saudi Arabia
+938,male,Ralph,Hackney,31,8,Niue
+939,female,Jeanne,Vallejos,29,4,Moldova
+940,male,Jeff,Henderson,29,1,Romania
+941,female,Desirae,Joos,32,3,France
+942,male,Harold,Wilson,34,6,Taiwan
+943,male,Andy,Hill,39,6,Gambia
+944,female,Patricia,Negrete,30,5,Norway
+945,female,Mary,Morehead,27,2,Mauritius
+946,female,Linda,Grant,39,3,Samoa
+947,male,Jesse,Wince,33,6,Comoros
+948,female,Beverly,Dupuis,24,8,Uruguay
+949,male,Bobby,Woodruff,29,3,Spain
+950,male,Albert,Hamel,28,10,Zimbabwe
+951,female,Hattie,Profit,29,8,Antarctica
+952,male,Nathaniel,Currier,27,2,Czech Republic
+953,female,Millie,King,35,10,Albania
+954,male,Cory,Minder,37,0,Ukraine
+955,female,Esther,Hoover,18,7,Tonga
+956,male,Richard,Clement,29,0,Paraguay
+957,male,Thomas,Edelman,19,1,Ghana
+958,male,Chris,Frye,34,8,Senegal
+959,female,Angela,Spraggins,31,2,Brazil
+960,female,Lillian,Allen,29,6,China
+961,male,Darius,Waddell,27,2,Burkina Faso
+962,male,Milton,Rodriguez,29,7,Cote D`ivoire
+963,female,Melissa,Marshall,20,6,Solomon Islands
+964,male,Barry,Melvin,40,4,Myanmar
+965,male,Israel,Mcclellan,24,0,Peru
+966,female,Karen,Burton,22,2,Tokelau
+967,female,Sylvie,Bugarin,29,7,Chad
+968,female,Leola,Montgomery,33,7,Oman
+969,male,Luke,Ortiz,20,5,Paraguay
+970,male,Rudolph,Sullivan,32,0,Micronesia
+971,male,David,Coleman,26,7,Slovakia
+972,male,Dale,Milliken,25,4,Nauru
+973,female,Monica,Gilliam,24,1,Romania
+974,male,Robert,Brown,28,8,Gabon
+975,male,William,Hardaway,20,7,Guyana
+976,male,Carl,Peralta,40,6,Portugal
+977,male,Tommy,Kennedy,27,9,Tuvalu
+978,female,Barbara,Levin,38,5,Nicaragua
+979,female,Pamela,Dye,35,4,Swaziland
+980,female,Mary,Cannon,22,8,Azerbaijan
+981,female,Betty,Drummond,21,5,Peru
+982,female,Jeanne,Berard,29,5,Indonesia
+983,female,Arvilla,White,30,5,Cyprus
+984,male,Russell,Hester,22,0,Jordan
+985,female,Ruth,Laura,35,0,Grenada
+986,male,Jimmy,Garcia,32,5,Romania
+987,female,Rochelle,Sheffield,20,6,Afghanistan
+988,female,Patricia,Atkinson,36,1,Brunei Darussalam
+989,male,Robert,Brown,39,9,Dominica
+990,female,Suzanna,Westervelt,37,10,Guinea-bissau
+991,male,Preston,Luna,24,0,Mauritania
+992,female,Velda,Staton,26,8,Bahrain
+993,male,Joe,Bartholomew,32,6,Jordan
+994,male,David,Horner,31,9,St. Helena
+995,male,Kevin,Brown,40,7,Andorra
+996,female,Joyce,Celaya,40,7,Suriname
+997,female,Ruby,Theodore,39,8,Macedonia
+998,male,Jason,Catchings,32,7,Syrian Arab Republic
+999,male,Alfonso,Mccoy,26,4,Latvia

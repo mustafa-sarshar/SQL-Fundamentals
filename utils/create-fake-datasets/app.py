@@ -299,7 +299,7 @@ def init_datasets():
     append_list_as_row(file_name=Path(CUR_DIR, "teams.csv"), list_of_elem=cols)
     cols = ["contract_id", "player_id", "salary"]
     append_list_as_row(file_name=Path(CUR_DIR, "contracts.csv"), list_of_elem=cols)
-    cols = ["player_id", "gender", "first_name", "last_name", "age", "team", "birthplace"]
+    cols = ["player_id", "gender", "first_name", "last_name", "age", "team_id", "birthplace"]
     append_list_as_row(file_name=Path(CUR_DIR, "players.csv"), list_of_elem=cols)
 
 def create_dataset_team(num=0):
