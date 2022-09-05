@@ -1,2 +1,1 @@
-player_id,gender,fname,lname,age,team_id,birthplace
-0,male,Harry,Horne,38,0,Georgia
+player_id,gender,first_name,last_name,age,team,birthplace
