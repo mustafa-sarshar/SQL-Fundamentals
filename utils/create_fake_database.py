@@ -13,34 +13,53 @@ db = dict(
     teams=pd.DataFrame(),
     nationalities=pd.DataFrame(),
 )
-
 GENDERS = (
     "male",
     "female"
 )
-
 SALARY_SCALE_FACTOR = (
     100_000,
     1_000_000,
     10_000_000
 )
 SALARY_OFFSET = 100_000
-AGE_RANGE = (18, 40)
 N_TEAMS = 1_000
+N_PLAYERS = 100_000
+AGE_RANGE = (18, 40)
 
 #%% Generate fake data
-N = 10_000_000
-lst_players = []
-for idx in range(N):
-    id = idx
-    idx_gender = int(random() * len(GENDERS))
-    gender = GENDERS[idx_gender]
-    fname = names.get_first_name(gender=gender)
-    lname = names.get_last_name()
-    age = randint(AGE_RANGE[0], AGE_RANGE[1])
-    idx_salary_scale_factor = int(random() * len(SALARY_SCALE_FACTOR))
-    salary = int(random() * SALARY_SCALE_FACTOR[idx_salary_scale_factor]) + SALARY_OFFSET
-    team = "Team " + str(randint(1, N_TEAMS))
+# Create the fake team table
+lst_teams = []
+for idx_team in range(N_TEAMS):
+    dict_team = dict(
+        team_id=idx_team,
+        team_name="Team " + str(idx_team+1)
+    )
+    lst_teams.append(dict_team)
 
-    lst_players.append([id, gender, fname, lname, age, team, salary])
-    print(lst_players[-1])
+lst_contracts = []
+for idx_player in range(N_PLAYERS):
+    n_contracts = randint(1, 5)
+    for idx_contract in range(n_contracts):
+        salary = int(random() * SALARY_SCALE_FACTOR[int(random() * len(SALARY_SCALE_FACTOR))]) + SALARY_OFFSET
+        dict_contracts = dict(
+            contract_id=idx_contract,
+            player_id=idx_player,
+            salary=salary
+        )
+        lst_contracts.append(dict_contracts)
+
+lst_players = []
+for idx_player in range(N_PLAYERS):
+    gender = GENDERS[int(random() * len(GENDERS))]
+    dict_player = dict(
+        player_id=idx_player,
+        gender=gender,
+        fname=names.get_first_name(gender=gender),
+        lname=names.get_last_name(),
+        age=randint(AGE_RANGE[0], AGE_RANGE[1]),
+        team_id=randint(0, N_TEAMS)
+    )
+    lst_players.append(dict_player)
+
+# %%
