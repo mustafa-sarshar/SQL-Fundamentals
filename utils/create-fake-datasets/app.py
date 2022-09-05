@@ -6,12 +6,10 @@ import sys, os
 from pathlib import Path
 import pandas as pd
 import names
-from random_word import RandomWords
 from random import randint, random, choice
 from csv import writer
 
 #%% Init a database
-rw = RandomWords()
 CUR_DIR = os.getcwd()
 # OPERATIONS_LENGTH_LIMIT = 1000
 COUNTRIES = [               # Source: https://pytutorial.com/python-get-random-country (accessed on 05.09.2022)
@@ -274,10 +272,7 @@ if len(sys.argv) > 4:
 
 #%% Custome Functions
 def get_a_random_team_name():
-    team_name = None
-    while(team_name == None):
-        team_name = rw.get_random_word(hasDictionaryDef="true", includePartOfSpeech="noun,verb", minCorpusCount=1, maxCorpusCount=10, minDictionaryCount=1, maxDictionaryCount=10, minLength=5, maxLength=10)
-    return team_name.capitalize()
+    return "Team"
 
 def append_list_as_row(file_name, list_of_elem):        # Source: https://thispointer.com/python-how-to-append-a-new-row-to-an-existing-csv-file/#:~:text=Open%20our%20csv%20file%20in,in%20the%20associated%20csv%20file
     # Open file in append mode
@@ -305,8 +300,8 @@ def init_datasets():
 def create_dataset_team(num=0):
     lst_teams = []
     for idx_team in range(num):
-        team_name = get_a_random_team_name()
-        # team_name = "Team " + str(idx_team+1)
+        # team_name = get_a_random_team_name()
+        team_name = "Team " + str(idx_team+1)
         dict_team = dict(
             team_id=idx_team,
             name=team_name,
@@ -318,8 +313,8 @@ def create_dataset_team(num=0):
 
 def append_dataset_team_csv(file_name="teams.csv", num=0):
     for idx_team in range(num):
-        team_name = get_a_random_team_name()
-        # team_name = "Team " + str(idx_team+1)
+        # team_name = get_a_random_team_name()
+        team_name = "Team " + str(idx_team+1)
         row_contents = [
             idx_team,
             team_name,
