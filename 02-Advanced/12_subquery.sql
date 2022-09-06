@@ -180,7 +180,5 @@ JOIN (
 
 
 
-
-
 -- Other Examples
 ---- DB: Employees (male employees older than the average age of males)

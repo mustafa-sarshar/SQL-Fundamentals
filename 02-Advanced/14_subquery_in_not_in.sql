@@ -1,0 +1,30 @@
+/*
+IN:
+    - Checks if the values IS EQUAL to any of the rows in the return (until yields null)
+NOT IN:
+    - The exact Opposite of IN
+*/
+
+-- DB: Store
+SELECT
+	P.PROD_ID,
+	C.CATEGORYNAME
+FROM PRODUCTS AS P
+JOIN CATEGORIES AS C USING(CATEGORY)
+WHERE CATEGORY IN (
+	SELECT CATEGORY
+	FROM CATEGORIES
+	WHERE CATEGORYNAME IN ('Comdey', 'Family', 'Classics')
+);
+
+-- with NOT IN
+SELECT
+	P.PROD_ID,
+	C.CATEGORYNAME
+FROM PRODUCTS AS P
+JOIN CATEGORIES AS C USING(CATEGORY)
+WHERE CATEGORY IN (
+	SELECT CATEGORY
+	FROM CATEGORIES
+	WHERE CATEGORYNAME NOT IN ('Comdey', 'Family', 'Classics')
+);
