@@ -1,29 +1,18 @@
 -- Activate the user and use the shell
 ---- $ sudo su postgres
----- $ psql
+-------- $ psql
+---- $ sudo -u postgres psql <database_name>
 
 -- Some useful commands
----- \l             # show all databases
----- \dn            # show all schemas
----- \du            # list of roles
+---- \l                 # show all databases
+---- \c                 # switching databases
+---- \dt                # listing all tables
+---- \dn                # show all schemas
+---- \du                # list of roles
+---- \conninfo          # get info about the database
+---- \d <table_name>    # get info about the table
 
-
-
--- Template Database
-
-
--- Creat a Database
--- CREATE DATABASE <database_name>;
-CREATE DATABASE testDB;
-
--- Drop a Database
--- DROP DATABASE <database_name>;
-DROP DATABASE testDB;
-
-
--- Create a Schema              # it allows multiple users to use same database without interfering with each other
-CREATE SCHEMA schema1;
-
--- Create a Role
-CREATE ROLE readonly WITH LOGIN ENCRYPTED PASSWORD 'readonly';      -- always encrypt when storing a role that can log in
-
+-- CREATE extensions
+CREATE EXTENSION IF NOT EXISTS "uuid_ossp";
+-- or
+CREATE EXTENSION "uuid_ossp";
