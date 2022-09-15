@@ -24,3 +24,8 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";     -- Universally Unique Identifier
 CREATE EXTENSION "uuid-ossp";
 -- List all Extensions
 SELECT * FROM pg_available_extensions;
+
+create extension dblink; -- run this to run queries across databases
+-- Example:
+SELECT *
+FROM dblink('host=localhost user=postgres password=postgres dbname=<database>', 'SELECT <column> FROM <table>;') AS t1(<column> NAME)
